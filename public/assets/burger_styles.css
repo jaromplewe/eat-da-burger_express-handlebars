@@ -68,7 +68,7 @@ body {
 }
 
 #burger-ready:hover {
-    color: #adadad;
+    color: #e9e9e9;
     background-color: rgb(118, 147, 226);
 }
 
@@ -95,11 +95,11 @@ body {
     padding: auto;
     color: white;
     border-radius: 10px;
-    background-color: rgb(118, 147, 226);
+    background-color: rgb(75, 116, 231);
 }
 
 #submit-burger:hover {
-    color: #adadad;
+    color: #e9e9e9;
     background-color: rgb(118, 147, 226);
 }
 
