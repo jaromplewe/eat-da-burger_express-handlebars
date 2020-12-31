@@ -9,14 +9,11 @@
             <div class="available-burgers">
                 <form action="/burgers/{{this.id}}?_method=PUT" method="POST" class="update-button">
                     {{this.burger_name}}
-                    <button type="submit" class="btn- btn-default" id="burger-ready">DEVOUR IT</button>
+                    <button type="submit" class="btn- btn-default" id="burger-ready">Devour</button>
                 </form>
             </div>
             {{/unless}}
             {{/each}}
-        </div>
-        <div class="col" id="burger-gif">
-            <img src="assets/img/burger.gif" class="text-center" id="gif">
         </div>
         <div class="col" id="list-devoured">
             <h2 class="burger-title text-center">Burgers Devoured</h2>
